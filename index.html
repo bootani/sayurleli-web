@@ -27,6 +27,13 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <!-- Embedded Stylesheet -->
+        <!-- <style>
+            img.logo {
+                height: 20%;
+            }
+        </style> -->
     </head>
 
     <body>
@@ -43,7 +50,8 @@
             <div class="container">
                 <nav class="navbar navbar-light navbar-expand-lg py-4">
                     <a href="index.html" class="navbar-brand" style="display: flex; align-items: center;">
-                        <h1 class="text-primary fw-bold mx-0">Sayurleli</h1>
+                        <!-- <h1 class="text-primary fw-bold mx-0">Sayurleli</h1> -->
+                        <img class="logo" src="img/logo.png" alt="Logo Sayurleli" height="55">
                     </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
@@ -51,8 +59,10 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
                             <a href="./index.html" class="nav-item nav-link active">Beranda</a>
-                            <a href="#tentang" class="nav-item nav-link">Tentang</a>
+                            <a href="#katalog" class="nav-item nav-link">Produk</a>
                             <a href="#layanan" class="nav-item nav-link">Layanan</a>
+                            <a href="#dokumentasi" class="nav-item nav-link">Dokumentasi</a>
+                            <a href="#tentang" class="nav-item nav-link">Tentang</a>
                             <a href="#kontak" class="nav-item nav-link">Kontak</a>
                         </div>
                         <a href="https://wa.me/+6287859908527" target="_blank" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Pesan Sekarang</a>
@@ -87,16 +97,12 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
-                        <img src="img/about2.jpg" class="img-fluid rounded" alt="Foto Kami">
+                        <img src="img/about3.png" class="img-fluid rounded" alt="Foto Kami">
                     </div>
                     <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
                         <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Tentang Kami</small>
                         <h1 class="display-5 mb-4">Dipercaya oleh 100+ Pelanggan</h1>
-                        <p class="mb-4">Sayurleli telah dipercaya oleh lebih dari 100 pelanggan yang puas dengan kemampuan kami
-                                        dalam menyediakan bahan masakan berkualitas. 
-                                        Kami menyajikan pilihan bahan segar dan terbaik, 
-                                        memastikan setiap langkah dalam perjalanan masak Anda berkesan. 
-                                        Temukan kepercayaan bersama Sayurleli, karena kepuasan Anda adalah prioritas utama kami.</p>
+                        <p class="mb-4">Sayurleli telah dipercaya oleh lebih dari 100 pelanggan yang puas, berkat visi kami untuk menjadi penghubung terpercaya antara petani lokal dan konsumen dengan menyediakan kebutuhan pangan berkualitas, mendorong gaya hidup sehat, dan mendukung pertanian berkelanjutan melalui platform belanja online. Temukan kepercayaan bersama Sayurleli, kepuasan Anda adalah prioritas utama kami.</p>
                         <div class="row g-4 text-dark mb-5">
                             <div class="col-sm-6">
                                 <i class="fas fa-star text-primary me-2"></i>Produk Segar & Berkualitas Tinggi
@@ -117,7 +123,76 @@
             </div>
         </div>
         <!-- About End -->
-        
+
+
+        <!-- Mission Start -->
+        <div class="container-fluid service py-6" id="misi">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Misi Kami</small>
+                    <h1 class="display-5 mb-5">Yang Kami Lakukan</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-desktop fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Easy Access</h4>
+                                    <p class="mb-4">Menyediakan platform belanja online yang mudah, cepat, dan aman untuk mendapatkan produk segar berkualitas tinggi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="far fa-check-circle fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Guaranteed Quality</h4>
+                                    <p class="mb-4">Menjamin kualitas setiap produk yang dijual, mulai dari pemilihan bahan baku hingga proses pengiriman.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-heartbeat fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Healthy Lifestyle</h4>
+                                    <p class="mb-4">Mendorong masyarakat untuk hidup sehat dengan menyediakan pilihan produk segar dan bergizi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-store fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Supporting 'UMKM' and Local Farmers</h4>
+                                    <p class="mb-4">Memberikan dukungan kepada petani lokal dengan membeli produk langsung dari mereka, sehingga harga yang kompetitif dan mendukung perekonomian lokal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-recycle fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Sustainability</h4>
+                                    <p class="mb-4">Mengadopsi praktik pertanian berkelanjutan untuk menjaga kelestarian lingkungan dan sumber daya alam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mission End -->
+
         
         <!-- Service Start -->
         <div class="container-fluid service py-6" id="layanan">
@@ -229,20 +304,470 @@
         <!-- Service End -->
 
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid py-6">
+        <!-- Catalog Start -->
+        <div class="container-fluid event py-6" id="katalog">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Katalog</small>
+                    <h1 class="display-5 mb-3">Galeri Produk Kami</h1>
+                    <p class="mb-5">Untuk melihat daftar produk selengkapnya, klik <a href="https://docs.google.com/spreadsheets/d/1HuZybLiZx8BHLDncea7SP6jsNccX-iWn/edit?usp=sharing&ouid=111899611108048773100&rtpof=true&sd=true" target="_blank">disini</a>.</p>
+                </div>
+                <div class="tab-class text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                <span class="text-dark" style="width: 150px;">Sayuran</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                <span class="text-dark" style="width: 150px;">Mie Instan</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                <span class="text-dark" style="width: 150px;">Bumbu Instan</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                                <span class="text-dark" style="width: 150px;">Rempah-rempah</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex mx-2 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                                <span class="text-dark" style="width: 150px;">Buah</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-01.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Sawi Putih</h4>
+                                                    <a href="img/produk/produk-sayuran-01.jfif" data-lightbox="event-1" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-02.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Brokoli</h4>
+                                                    <a href="img/produk/produk-sayuran-02.jpg" data-lightbox="event-2" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-03.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Buncis</h4>
+                                                    <a href="img/produk/produk-sayuran-03.jpg" data-lightbox="event-3" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-04.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Cabai Rawit</h4>
+                                                    <a href="img/produk/produk-sayuran-04.jpg" data-lightbox="event-4" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-05.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Kangkung</h4>
+                                                    <a href="img/produk/produk-sayuran-05.jpg" data-lightbox="event-5" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.3s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-06.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Kentang</h4>
+                                                    <a href="img/produk/produk-sayuran-06.jfif" data-lightbox="event-6" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.5s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-07.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Tomat</h4>
+                                                    <a href="img/produk/produk-sayuran-07.jpg" data-lightbox="event-7" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.7s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-sayuran-08.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Wortel</h4>
+                                                    <a href="img/produk/produk-sayuran-08.jpg" data-lightbox="event-17" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-01.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Indomie Ayam Geprek</h4>
+                                                    <a href="img/produk/produk-mie-01.jpg" data-lightbox="event-8" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-02.png" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Indomie Mie Goreng</h4>
+                                                    <a href="img/produk/produk-mie-02.png" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-03.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Mie Pipih Cap 3 Ayam</h4>
+                                                    <a href="img/produk/produk-mie-03.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-04.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Mie Sedaap Cup Baso Spesial</h4>
+                                                    <a href="img/produk/produk-mie-04.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-05.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Mie Sedaap Korean Spicy Soup</h4>
+                                                    <a href="img/produk/produk-mie-05.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-06.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Mie Sedaap Salero Padang</h4>
+                                                    <a href="img/produk/produk-mie-06.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-07.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Pop Mie Baso</h4>
+                                                    <a href="img/produk/produk-mie-07.jpg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-mie-08.jpeg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Pop Mie Soto Ayam</h4>
+                                                    <a href="img/produk/produk-mie-08.jpeg" data-lightbox="event-9" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-01.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Bamboe Ayam Goreng</h4>
+                                                    <a href="img/produk/produk-bumbu-01.jpg" data-lightbox="event-10" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-02.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Bamboe Ayam Kecap</h4>
+                                                    <a href="img/produk/produk-bumbu-02.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-03.jpeg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Bamboe Saus Bulgogi</h4>
+                                                    <a href="img/produk/produk-bumbu-03.jpeg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-04.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Desaku Bumbu Opor</h4>
+                                                    <a href="img/produk/produk-bumbu-04.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-05.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Sajiku Serbaguna</h4>
+                                                    <a href="img/produk/produk-bumbu-05.jfif" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-06.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Sajiku Nusantara Soto Ayam</h4>
+                                                    <a href="img/produk/produk-bumbu-06.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-07.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Tepung Sajiku Golden Crispy</h4>
+                                                    <a href="img/produk/produk-bumbu-07.jpg" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-bumbu-08.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Tepung Sajiku Manis</h4>
+                                                    <a href="img/produk/produk-bumbu-08.jfif" data-lightbox="event-11" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-01.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Cengkeh</h4>
+                                                    <a href="img/produk/produk-rempah-01.jpg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-02.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Daun Salam</h4>
+                                                    <a href="img/produk/produk-rempah-02.jpg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-03.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Jahe</h4>
+                                                    <a href="img/produk/produk-rempah-03.jpg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-04.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Kayu Manis</h4>
+                                                    <a href="img/produk/produk-rempah-04.jfif" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-05.jpeg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Kemiri</h4>
+                                                    <a href="img/produk/produk-rempah-05.jpeg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-06.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Kunyit</h4>
+                                                    <a href="img/produk/produk-rempah-06.jfif" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-07.jfif" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Lengkuas</h4>
+                                                    <a href="img/produk/produk-rempah-07.jfif" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-rempah-08.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Merica</h4>
+                                                    <a href="img/produk/produk-rempah-08.jpg" data-lightbox="event-12" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-01.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Anggur</h4>
+                                                    <a href="img/produk/produk-buah-01.jpg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-02.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Apel Fuji</h4>
+                                                    <a href="img/produk/produk-buah-02.jpg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-03.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Belimbing</h4>
+                                                    <a href="img/produk/produk-buah-03.jpg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-04.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Jeruk</h4>
+                                                    <a href="img/produk/produk-buah-04.jpg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-05.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Kedondong</h4>
+                                                    <a href="img/produk/produk-buah-05.jpg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-06.jpeg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Melon</h4>
+                                                    <a href="img/produk/produk-buah-06.jpeg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-07.png" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Salak</h4>
+                                                    <a href="img/produk/produk-buah-07.png" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/produk/produk-buah-08.jpg" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <h4 class="me-auto">Semangka</h4>
+                                                    <a href="img/produk/produk-buah-08.jpg" data-lightbox="event-14" class="my-auto"><i class="fas fa-search-plus text-dark fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Catalog End -->
+
+
+        <!-- Documentation Start -->
+        <div class="container-fluid py-6" id="dokumentasi">
             <div class="container">
                 <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
                     <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Dokumentasi</small>
                     <h1 class="display-5 mb-5">Catatan Perjalanan Kami</h1>
                 </div>
-                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
-                    <img src="img/dokumentasi-1.jpg" class="img-fluid rounded" alt="Foto Kami" >  
-                    <img src="img/dokumentasi-2.jpg" class="img-fluid rounded" alt="Foto Kami" >  
-                    <img src="img/dokumentasi-3.jpg" class="img-fluid rounded" alt="Foto Kami" >  
-                    <img src="img/dokumentasi-4.jpg" class="img-fluid rounded" alt="Foto Kami" >  
-                    <img src="img/dokumentasi-5.jpg" class="img-fluid rounded" alt="Foto Kami" >  
-                    <img src="img/dokumentasi-6.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-2 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                    <img src="img/dokumentasi/dokumentasi-01.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-02.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-03.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-04.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-05.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-06.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-07.jpeg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-08.jpeg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-09.jpeg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-10.jpeg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-11.jpeg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/dokumentasi/dokumentasi-12.jpeg" class="img-fluid rounded" alt="Foto Kami" >  
                 </div>
                 <!-- <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
                     <div class="testimonial-item rounded bg-light">
@@ -336,6 +861,24 @@
                 </div> -->
             </div>
         </div>
+        <!-- Documentation End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-6" id="testimoni">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimoni</small>
+                    <h1 class="display-5 mb-5">Pengalaman Pelanggan Kami</h1>
+                </div>
+                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                    <img src="img/testimoni/testimoni-13.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/testimoni/testimoni-14.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/testimoni/testimoni-15.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                    <img src="img/testimoni/testimoni-16.jpg" class="img-fluid rounded" alt="Foto Kami" >  
+                </div>
+            </div>
+        </div>
         <!-- Testimonial End -->
 
 
@@ -371,7 +914,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5">
                         <div class="footer-item">
-                            <h4 class="mb-4">Galeri Produk</h4>
+                            <h4 class="mb-4">Produk Kami</h4>
                             <div class="row g-2">
                                 <div class="col-4">
                                      <img src="img/produk-01.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
